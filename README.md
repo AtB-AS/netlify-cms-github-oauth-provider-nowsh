@@ -76,6 +76,8 @@ backend:
   repo: user/repo   # Path to your Github/Gitlab repository
   branch: master    # Branch to update
   base_url: https://your.server.com # Path to ext auth provider
+  auth_endpoint: /api/auth # Note: This is needed to match the Now.sh default path.
+
 ```
 
 ## Deployment on Now.sh
