@@ -1,0 +1,28 @@
+{
+  "name": "netlify-cms-github-oauth-provider-nowsh",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=7.x"
+  },
+  "description": "netlify oauth github client sending token in form as netlify service itself. Hosting on Now.sh",
+  "repository": "https://github.com/vencax/netlify-cms-github-oauth-provider",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "netlify",
+    "cms",
+    "auth"
+  ],
+  "author": "Mikael Brevik <mikaelbre@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "randomstring": "^1.1.5",
+    "simple-oauth2": "^1.2.0"
+  },
+  "devDependencies": {
+    "now": "^16.7.1"
+  }
+}

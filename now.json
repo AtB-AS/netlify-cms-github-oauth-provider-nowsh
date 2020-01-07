@@ -1,0 +1,9 @@
+{
+  "scope": "atb",
+  "env": {
+    "ORIGIN": "@netlify-auth-origin",
+    "OAUTH_CLIENT_ID": "@netlify-auth-oauth-client-id",
+    "OAUTH_CLIENT_SECRET": "@netlify-auth-oauth-client-secret",
+    "REDIRECT_URL": "@netlify-auth-redirect-url"
+  }
+}
