@@ -8,6 +8,12 @@ Github, Github Enterprise and Gitlab are currently supported, but as this is a g
 
 This implementation is ment for hosting on Zeits Now.sh and based on the implementation [for Node.js and express](https://github.com/vencax/netlify-cms-github-oauth-provider)
 
+## Quick Deploy To Now.sh
+
+```sh
+now AtB-AS/netlify-cms-github-oauth-provider-nowsh
+```
+
 ## 1) Install Locally
 
 **Install Repo Locally**
